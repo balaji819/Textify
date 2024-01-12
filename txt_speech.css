@@ -1,0 +1,38 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(41deg, rgba(34, 193, 195, 1) 0%, rgba(0, 112, 255, 1) 33%, rgba(3, 231, 214, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.container{
+    width: 600px;
+}
+.row{
+    padding: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+button{
+    position: absolute;
+    left: 50%;
+}
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
